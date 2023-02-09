@@ -28,19 +28,13 @@ public class HomeWork1 {
         printDouble(subDouble(5.78, 2.25));
         printDouble(multDouble(1.1,0));
         printDouble(divDouble(2.2, 28.14));
-
-
-
     }
 
     public static void printWord(String word) {
         System.out.println(word);
     }
 
-    /*
-    Integer checks for addition, subtraction, multiplication, division
-     */
-
+    //Integer checks for addition, subtraction, multiplication, division
     public static void printInt(int num) {
         System.out.println(num);
     }
@@ -61,9 +55,7 @@ public class HomeWork1 {
         return a / b;
     }
 
-    /*
-    Long checks for addition, subtraction, multiplication, division
-     */
+    //Long checks for addition, subtraction, multiplication, division
     public static void printLong(long num) {
         System.out.println(num);
     }
@@ -84,9 +76,7 @@ public class HomeWork1 {
         return a / b;
     }
 
-    /*
-    Short checks for addition, subtraction, multiplication, division
-     */
+    //Short checks for addition, subtraction, multiplication, division
     public static void printShort(short num) {
         System.out.println(num);
     }
@@ -108,9 +98,7 @@ public class HomeWork1 {
     }
 
 
-    /*
-    Byte checks for addition, subtraction, multiplication, division
-     */
+    //Byte checks for addition, subtraction, multiplication, division
     public static void printByte(int num) {
         System.out.println(num);
     }
@@ -131,10 +119,7 @@ public class HomeWork1 {
         return (byte) (a / b);
     }
 
-    /*
-    Double checks for addition, subtraction, multiplication, division
-     */
-
+    //Double checks for addition, subtraction, multiplication, division
     public static void printDouble(double num) {
         System.out.println(num);
     }
@@ -152,6 +137,6 @@ public class HomeWork1 {
     }
 
     public static double divDouble(double a, double b) {
-        return (double) (a / b);
+        return (a / b);
     }
 }
